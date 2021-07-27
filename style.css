@@ -1,0 +1,25 @@
+html, body{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    background-color: whitesmoke;
+}
+
+#canvas{
+    width: 1000px;
+    height: 600px;
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+}
